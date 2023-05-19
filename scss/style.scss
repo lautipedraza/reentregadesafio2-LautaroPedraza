@@ -1,0 +1,111 @@
+body 
+     {background-image: url(../img/bk\ new.jpg);
+     background-size: cover;} 
+  .h1-todo
+         {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+             color: blue;
+             font-size: 300%;
+             text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);} 
+  .a-nbar
+         {font-size: x-large;
+             margin-left: 3cm;
+                 color: black;
+                 text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+   a
+          {text-decoration: none;}                           
+//INDEX
+  .main-index
+         {display: flex;
+          flex-direction: column;
+             justify-content: center;
+             align-items: center;
+             margin-top: 2cm;  }
+  .h2-index
+         {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          font-size: 50px;
+          color: azure;
+          text-shadow: 5px 5px 5px blue}
+  .p-index
+         { font-size: xx-large;
+           font-family: 'Times New Roman', Times, serif;
+           color: azure;
+           margin-bottom: 3cm;
+           text-shadow: 5px 5px 5px black;}
+  .a-index-maps
+         {color: violet;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+//SOBRE NOSOTROS
+   main iframe
+         {margin-top: 1cm;
+          margin-left: 11cm}
+      .h2-nosotros
+           { font-size: 50px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: azure;
+            text-shadow: 5px 5px 5px black;}
+      .sobre-nosotros
+           {font-size: x-large;
+            font-family: 'Times New Roman', Times, serif;
+            color: azure;
+            text-shadow: 5px 5px 5px black;} 
+//SUPLEMENTOS                  
+     .img-sns
+         {margin-top: 2cm;}
+     .h2-suplementos{
+         font-size: xx-large;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+         color: azure;
+         text-shadow: 5px 5px 5px black;}
+     p.suplementos{
+         font-family: 'Times New Roman', Times, serif;
+         font-size: xx-large;
+         color: azure;
+         margin-top: 3cm;}
+     .a-suplementos{
+         font-size: xx-large;
+         font-family: 'Times New Roman', Times, serif;
+         color: violet;}
+     .carru1
+         { width: 100%;
+           height: 400px; 
+           object-fit: cover;}
+//COPETIDORES Y AFICIONADOS/COFEE AND FOODS
+                           
+     .h2-jesain{
+            font-size: xx-large;
+            font-family: 'Times New Roman', Times, serif;
+            color: azure;
+            margin-top: 2cm;
+            text-shadow: 5px 5px 5px black;}
+     .p-jesain{
+            color: azure;
+            font-size: x-large;
+             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+             text-shadow: 5px 5px 5px red;}
+     .p-jesain2{
+             color: azure;
+             font-size: x-large;
+             text-shadow: 5px 5px 5px black;}
+     .comp
+             {margin-top: 1cm;
+               width:10cm;height: 10cm;border-radius: 20px;}
+     .animacion:hover
+             {transform:translateX(500px) ;
+               transition: all 2s;}       
+//FOOTERS 
+     footer h3{
+         font-family: 'Times New Roman', Times, serif;
+         font-size: x-large;
+         color: azure;
+         background-color: blue;
+         margin-top: 5cm;}
+     footer li{
+          font-family: 'Times New Roman', Times, serif;
+          font-size: x-large;
+          color: azure;}
+    footer a{
+          color: violet;}           
+
+
+           
