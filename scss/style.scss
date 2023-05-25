@@ -1,111 +1,109 @@
-body 
+//variables 
+$colortext: azure;
+$fontfamily: 'Times New Roman', Times, serif;
+//partial de mi nvbar
+@import './componentes/nvar';
+body
      {background-image: url(../img/bk\ new.jpg);
-     background-size: cover;} 
-  .h1-todo
-         {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-             color: blue;
-             font-size: 300%;
-             text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);} 
-  .a-nbar
-         {font-size: x-large;
-             margin-left: 3cm;
-                 color: black;
-                 text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
-   a
-          {text-decoration: none;}                           
+     background-size: cover;}                   
 //INDEX
   .main-index
-         {display: flex;
-          flex-direction: column;
-             justify-content: center;
-             align-items: center;
-             margin-top: 2cm;  }
-  .h2-index
-         {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-          font-size: 50px;
-          color: azure;
-          text-shadow: 5px 5px 5px blue}
-  .p-index
-         { font-size: xx-large;
-           font-family: 'Times New Roman', Times, serif;
-           color: azure;
-           margin-bottom: 3cm;
-           text-shadow: 5px 5px 5px black;}
-  .a-index-maps
-         {color: violet;
-          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+         { display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           margin-top: 2cm; 
+            
+             .h2-index
+                 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                   font-size: 50px;
+                   color: $colortext;
+                   text-shadow: 5px 5px 5px blue; padding-left: 1cm;}
+            
+                  .p-index
+                       { font-size: xx-large;
+                       font-family: $fontfamily;
+                      color:$colortext;
+                      margin-bottom: 3cm;
+                       text-shadow: 5px 5px 5px black;padding-left: 10px;}
+                       .a-index-maps
+                       {color: violet;
+                        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}      }
 //SOBRE NOSOTROS
-   main iframe
+   main
+       {
+          .presentacion-gym    
          {margin-top: 1cm;
-          margin-left: 11cm}
-      .h2-nosotros
-           { font-size: 50px;
+
+          border-radius: 30px;}
+         .h2-nosotros
+           { font-size: 50px; padding-left: 10px;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            color: azure;
-            text-shadow: 5px 5px 5px black;}
-      .sobre-nosotros
+            color: $colortext;
+            text-shadow: 5px 5px 5px black; padding-left: 1cm;}
+         .sobre-nosotros
            {font-size: x-large;
-            font-family: 'Times New Roman', Times, serif;
-            color: azure;
-            text-shadow: 5px 5px 5px black;} 
+            font-family: $fontfamily;
+            color:$colortext;
+            text-shadow: 5px 5px 5px black;
+            padding-left: 10px;} }
 //SUPLEMENTOS                  
      .img-sns
          {margin-top: 2cm;}
      .h2-suplementos{
-         font-size: xx-large;
+         font-size: xx-large; padding-left: 10px;
          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-         color: azure;
+         color: $colortext;
          text-shadow: 5px 5px 5px black;}
      p.suplementos{
-         font-family: 'Times New Roman', Times, serif;
-         font-size: xx-large;
-         color: azure;
+         font-family: $fontfamily;
+         font-size: xx-large; padding-left: 10px;
+         color:$colortext;
          margin-top: 3cm;}
      .a-suplementos{
-         font-size: xx-large;
-         font-family: 'Times New Roman', Times, serif;
-         color: violet;}
+         font-size: xx-large; padding-left: 10px;
+         font-family: $fontfamily;
+         color: rgb(255, 0, 255);}
      .carru1
          { width: 100%;
-           height: 400px; 
+           height: 500px; 
            object-fit: cover;}
 //COPETIDORES Y AFICIONADOS/COFEE AND FOODS
-                           
+     .h2-nosotros{padding-top: 1cm;}                      
      .h2-jesain{
             font-size: xx-large;
-            font-family: 'Times New Roman', Times, serif;
-            color: azure;
-            margin-top: 2cm;
-            text-shadow: 5px 5px 5px black;}
+            font-family: $fontfamily;
+            color: $colortext;
+            margin-top: 5cm;
+            text-shadow: 5px 5px 5px black;}            
      .p-jesain{
-            color: azure;
-            font-size: x-large;
+            color: $colortext;
+            font-size: xx-large;
              font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
-             text-shadow: 5px 5px 5px red;}
+             text-shadow: 2px 2px 2px red;}
      .p-jesain2{
-             color: azure;
+             color: $colortext;
              font-size: x-large;
              text-shadow: 5px 5px 5px black;}
      .comp
              {margin-top: 1cm;
-               width:10cm;height: 10cm;border-radius: 20px;}
+               width:15cm;height: 15cm;border-radius: 20px;}
      .animacion:hover
-             {transform:translateX(500px) ;
+             {transform:translateX(300px) ;
                transition: all 2s;}       
 //FOOTERS 
      footer h3{
-         font-family: 'Times New Roman', Times, serif;
-         font-size: x-large;
-         color: azure;
+         font-family: $fontfamily;
+         font-size: x-large;padding-left: 15px;
+         color:$colortext;
          background-color: blue;
          margin-top: 5cm;}
      footer li{
-          font-family: 'Times New Roman', Times, serif;
-          font-size: x-large;
-          color: azure;}
+          font-family: $fontfamily;
+          font-size: x-large; padding-left: 15px;
+          color: $colortext;}
     footer a{
-          color: violet;}           
+          color: rgb(153, 0, 255);}           
 
 
            
