@@ -3,32 +3,10 @@ $colortext: azure;
 $fontfamily: 'Times New Roman', Times, serif;
 //partial de mi nvbar
 @import './componentes/nvar';
+@import './componentes/index';
 body
      {background-image: url(../img/bk\ new.jpg);
      background-size: cover;}                   
-//INDEX
-  .main-index
-         { display: flex;
-           flex-direction: column;
-           justify-content: center;
-           align-items: center;
-           margin-top: 2cm; 
-            
-             .h2-index
-                 {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-                   font-size: 50px;
-                   color: $colortext;
-                   text-shadow: 5px 5px 5px blue; padding-left: 1cm;}
-            
-                  .p-index
-                       { font-size: xx-large;
-                       font-family: $fontfamily;
-                      color:$colortext;
-                      margin-bottom: 3cm;
-                       text-shadow: 5px 5px 5px black;padding-left: 10px;}
-                       .a-index-maps
-                       {color: violet;
-                        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}      }
 //SOBRE NOSOTROS
    main
        {
@@ -55,19 +33,11 @@ body
          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
          color: $colortext;
          text-shadow: 5px 5px 5px black;}
-     p.suplementos{
-         font-family: $fontfamily;
-         font-size: xx-large; padding-left: 10px;
-         color:$colortext;
-         margin-top: 3cm;}
      .a-suplementos{
          font-size: xx-large; padding-left: 10px;
          font-family: $fontfamily;
          color: rgb(255, 0, 255);}
-     .carru1
-         { width: 100%;
-           height: 500px; 
-           object-fit: cover;}
+        .dc{padding-left: 5px;}
 //COPETIDORES Y AFICIONADOS/COFEE AND FOODS
      .h2-nosotros{padding-top: 1cm;}                      
      .h2-jesain{

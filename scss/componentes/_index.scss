@@ -1,0 +1,22 @@
+.main-index
+{ display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2cm; 
+   
+    .h2-index
+        {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          font-size: 50px;
+          color: $colortext;
+          text-shadow: 5px 5px 5px blue; padding-left: 1cm;}
+   
+         .p-index
+              { font-size: xx-large;
+              font-family: $fontfamily;
+             color:$colortext;
+             margin-bottom: 3cm;
+              text-shadow: 5px 5px 5px black;padding-left: 10px;}
+              .a-index-maps
+              {color: violet;
+               font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}      }
